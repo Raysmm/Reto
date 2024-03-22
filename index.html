@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Reto</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="parte1">
+            <div class="containerboxText">
+                <textarea id="texto-area" placeholder="Por favor ingrese el texto" 
+                class="boxText"></textarea>
+            </div>
+            <div class="alert">
+                <p>Solamente con letras minúsculas y sin acentos</p>
+            </div>
+            <div class="containerButton">
+                <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section  class="parte2">
+            <div class="containerJoker">
+            </div>
+            <div class="containerPrf">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Por favor ingrese el texto que desee <br>encriptar o desencriptar.</p>
+            </div>
+            <div class="containerCopy">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        <div>
+            <input id="resultado" class="containerResult">
+            </input>
+        </div>
+
+        </section>
+       
+    </main>
+
+    <script src="encriptado.js"></script>
+    
+</body>
+</html>
