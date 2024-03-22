@@ -12,13 +12,13 @@ const matriz_code = [
 function botonEncriptar(){
     const texto = encriptar(campo_texto.value);
     campo_mensaje.value = texto;
-    document.querySelector('#resultado').value = ('');
+    document.querySelector('#texto-area').value = ('');
 }
 
 function botonDesencriptar(){
     const texto = desencriptar(campo_texto.value);
     campo_mensaje.value =texto;
-    document.querySelector('#resultado').value = ('');
+    document.querySelector('#texto-area').value = ('');
 }
 
 function copiar() {
